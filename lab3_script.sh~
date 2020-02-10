@@ -1,0 +1,19 @@
+#!/bin/bash
+#Calista Nguyen & Will Huynh 
+#02/05/19
+
+#Problem 1 Code: 
+echo "Enter a file name: "
+read fileName
+
+echo "Enter a regular expression: "
+read regEx
+
+grep $regEx $fileName
+
+grep -c [0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9] regex_practice.txt 
+
+
+
+
+
